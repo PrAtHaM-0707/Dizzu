@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-gray-950 text-gray-100 font-sans antialiased;
+  overflow-x: hidden;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold md:text-5xl;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    @apply text-3xl font-bold md:text-4xl;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    @apply text-2xl font-bold md:text-3xl;
+    line-height: 1.2;
+  }
+  
+  h4 {
+    @apply text-xl font-semibold md:text-2xl;
+    line-height: 1.2;
+  }
+  
+  p {
+    @apply my-4 leading-relaxed;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md px-6 py-3 font-medium transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900;
+  }
+  
+  .btn-primary {
+    @apply btn bg-purple-600 hover:bg-purple-700 text-white focus:ring-purple-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-indigo-600 hover:bg-indigo-700 text-white focus:ring-indigo-500;
+  }
+  
+  .btn-outline {
+    @apply btn bg-transparent border-2 border-gray-700 hover:border-gray-500 focus:ring-gray-500;
+  }
+  
+  .card {
+    @apply rounded-xl bg-gray-900 border border-gray-800 transition-all hover:border-gray-700 overflow-hidden;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-500;
+  }
+  
+  .nav-link {
+    @apply relative px-4 py-2 text-gray-300 hover:text-white transition-colors;
+  }
+  
+  .nav-link-active {
+    @apply nav-link text-white font-medium;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+/* Custom selection color */
+::selection {
+  @apply bg-purple-900 text-white;
+}
