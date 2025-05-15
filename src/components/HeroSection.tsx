@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <Server className="text-primary-500" />
-                <span className="text-gray-300">95+ Servers</span>
+                <span className="text-gray-300">105+ Servers</span>
               </motion.div>
               <motion.div 
                 className="flex items-center gap-2"
