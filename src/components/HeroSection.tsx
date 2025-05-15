@@ -39,7 +39,7 @@ const HeroSection: React.FC = () => {
                 Add to Discord
               </a>
               <a 
-                href="https://discord.gg/5JyHJhVwZD" 
+                href="https://discord.gg/nbQWQ8hwYq" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-outline"

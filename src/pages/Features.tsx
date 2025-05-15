@@ -85,7 +85,8 @@ const Features: React.FC = () => {
         "Farewell messages when members leave",
         "Custom welcome images and embeds",
         "Multi-channel welcome configuration"
-      ]
+      ],
+      imageSrc: "/images/welcome.webp"
     },
     {
       title: "Activity Tracking",
@@ -98,7 +99,9 @@ const Features: React.FC = () => {
         "Leaderboards for most active members",
         "Activity role rewards system"
       ],
-      reverse: true
+      reverse: true,
+      
+      imageSrc: "/images/leaderboard.webp"
     },
     {
       title: "EmbedBuilder",
@@ -110,7 +113,9 @@ const Features: React.FC = () => {
         "Save and reuse embed templates",
         "Schedule embed messages",
         "Edit existing embeds easily"
-      ]
+      ],
+      
+      imageSrc: "/images/embed.webp"
     },
     {
       title: "Logging System",
@@ -123,6 +128,8 @@ const Features: React.FC = () => {
         "Moderation action logging",
         "Server change and role update logs"
       ],
+      
+      imageSrc: "/images/logging.webp",
       reverse: true
     },
     {
@@ -135,7 +142,8 @@ const Features: React.FC = () => {
         "Auto-react to specific messages",
         "Scheduled announcements and reminders",
         "Auto-moderation for inappropriate content"
-      ]
+      ],
+      imageSrc: "/images/autores.webp"
     },
     {
       title: "Giveaways",
@@ -148,7 +156,8 @@ const Features: React.FC = () => {
         "Reroll functionality for no-shows",
         "Giveaway announcement customization"
       ],
-      reverse: true
+      reverse: true,
+      imageSrc: "/images/giveaway.webp"
     },
     {
       title: "Fun Commands",
@@ -160,7 +169,8 @@ const Features: React.FC = () => {
         "8-ball and fortune telling",
         "Reaction-based games",
         "Random facts and jokes"
-      ]
+      ],
+      imageSrc: "/images/fun.webp"
     },
     {
       title: "Utility Tools",
@@ -173,7 +183,8 @@ const Features: React.FC = () => {
         "User info and lookup commands",
         "Role and permission management"
       ],
-      reverse: true
+      reverse: true,
+      imageSrc: "/images/mc.webp"
     },
     {
       title: "Coming Soon Features",
@@ -185,7 +196,8 @@ const Features: React.FC = () => {
         "Join to create voice channels",
         "Music player with playlist support",
         "Custom leveling system with rewards"
-      ]
+      ],
+      imageSrc: "/images/comingsoon.webp"
     }
   ];
 
@@ -257,6 +269,7 @@ const Features: React.FC = () => {
           icon={section.icon}
           features={section.features}
           reverse={section.reverse}
+          imageSrc={section.imageSrc} 
         />
       ))}
       

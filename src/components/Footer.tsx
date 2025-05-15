@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Bot, Github, Twitter, Heart } from 'lucide-react';
+//import { Bot, Github, Twitter, Heart } from 'lucide-react';
+import { Bot, Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -32,7 +33,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://discord.gg/5JyHJhVwZD" 
+                  href="https://discord.gg/nbQWQ8hwYq" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
@@ -62,7 +63,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Social</h4>
             <div className="flex space-x-4">
-              <a 
+              {/* <a 
                 href="https://github.com/your-username" 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -79,9 +80,9 @@ const Footer: React.FC = () => {
               >
                 <Twitter className="h-6 w-6" />
                 <span className="sr-only">Twitter</span>
-              </a>
+              </a> */}
               <a 
-                href="https://discord.gg/5JyHJhVwZD" 
+                href="https://discord.gg/nbQWQ8hwYq" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

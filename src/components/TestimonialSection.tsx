@@ -38,25 +38,26 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, role, content, stars, d
 
 const TestimonialSection: React.FC = () => {
   const testimonials = [
-    {
-      name: "Alex Smith",
-      role: "Gaming Community Owner",
-      content: "DizZu has completely transformed how our members interact. The tracking features help us reward our most active members, and the welcome system makes everyone feel at home.",
-      stars: 5
-    },
-    {
-      name: "Jamie Chen",
-      role: "Art Server Moderator",
-      content: "The EmbedBuilder is a game-changer for our art prompts and announcements. We also love the auto-react feature for our showcase channels!",
-      stars: 5
-    },
-    {
-      name: "Taylor Williams",
-      role: "Study Group Admin",
-      content: "The logging features help us keep track of important discussions, and the utility commands make organizing study sessions so much easier.",
-      stars: 4
-    }
-  ];
+  {
+    name: "Water",
+    role: "Gaming Community Owner",
+    content: "Since we started using DizZu, member engagement has really picked up. The activity tracking lets us recognize our top contributors, and the welcome messages make newcomers feel truly welcomed.",
+    stars: 5
+  },
+  {
+    name: "Moon",
+    role: "Server Moderator",
+    content: "EmbedBuilder has been a huge help for crafting our art prompts and announcements without hassle. Plus, the auto-react feature adds a nice touch to our showcase channels!",
+    stars: 5
+  },
+  {
+    name: "Sujal",
+    role: "Server Admin",
+    content: "The logging system keeps everything organized and transparent, which is crucial for our group. Also, the utility commands have simplified managing study sessions a lot.",
+    stars: 5
+  }
+];
+
 
   return (
     <section className="py-16 md:py-24 bg-gray-950 relative">

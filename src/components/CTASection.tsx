@@ -39,7 +39,7 @@ const CTASection: React.FC = () => {
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
             <a 
-              href="https://discord.gg/5JyHJhVwZD" 
+              href="https://discord.gg/nbQWQ8hwYq" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-outline"
