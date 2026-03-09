@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Social</h4>
             <div className="flex space-x-4">
               {/* <a 
-                href="https://github.com/your-username" 
+                href="https://github.com/PrAtHaM-0707" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
                 <span className="sr-only">GitHub</span>
               </a>
               <a 
-                href="https://twitter.com/your-username" 
+                href="https://twitter.com/PrAtHaM-0707" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

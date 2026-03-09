@@ -5,11 +5,9 @@ import { ArrowRight } from 'lucide-react';
 const CTASection: React.FC = () => {
   return (
     <section className="py-16 md:py-24 relative overflow-hidden">
-      {/* Gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-gray-950"></div>
       <div className="absolute inset-0 bg-hero-pattern opacity-5"></div>
       
-      {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 via-secondary-500 to-accent-500"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-500/10 rounded-full filter blur-3xl"></div>
       <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-secondary-500/10 rounded-full filter blur-3xl"></div>

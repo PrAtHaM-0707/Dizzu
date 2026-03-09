@@ -32,7 +32,6 @@ const Navbar: React.FC = () => {
             <span className="gradient-text">DizZu</span>
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-1">
             <NavLink
               to="/"
@@ -51,7 +50,6 @@ const Navbar: React.FC = () => {
               Features
             </NavLink>
 
-            {/* Legal Dropdown (Click Toggle) */}
             <div className="relative">
               <button
                 className="nav-link flex items-center"
@@ -91,7 +89,6 @@ const Navbar: React.FC = () => {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             type="button"
             className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-800 hover:text-white"
@@ -103,7 +100,6 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       {isMenuOpen && (
         <motion.div
           className="md:hidden bg-gray-900 border-b border-gray-800"
